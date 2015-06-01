@@ -1,10 +1,3 @@
-# lanacion-user-js
-
-Anti Paywall lanacion.com.ar
-
-Funciona con greasemonkey para firefox y tampermonkey para chrome.
-
-
 // ==UserScript==
 // @name         Anti paywall lanacion.com.ar
 // @namespace    https://github.com/mhughes
@@ -14,3 +7,6 @@ Funciona con greasemonkey para firefox y tampermonkey para chrome.
 // @match        http://*.lanacion.com.ar/*
 // @grant        none
 // ==/UserScript==
+
+$("body>.modal-scrollable").hide();
+$("body").removeClass("modal-open");
