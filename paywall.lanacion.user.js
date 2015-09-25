@@ -8,5 +8,4 @@
 // @grant        none
 // ==/UserScript==
 
-$("body>.modal-scrollable").hide();
-$("body").removeClass("modal-open");
+$("body > div.lnmodal.pantalla-completa.login").hide();
